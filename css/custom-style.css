@@ -1,5 +1,6 @@
 /* =============== index  ================ */
 
+
 /*------- event strt------ */
 
 .event-img-custom img{
@@ -22,7 +23,7 @@
 .footer-logo img{
     height: 13rem !important;
     width: 100% !important;
-    object-fit: contain;
+    object-fit: contain !important;
 }
 
 /*------- footer end------ */
@@ -63,6 +64,16 @@
 
 
 /* ======= faq ======= */
+
+.breadcrumb-item{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.breadcrumb-item a{
+    font-size: 1.5rem;
+    color: var(--bs-secondary-yellow) !important;
+}
 
 .faq-main{
     padding: 8rem;

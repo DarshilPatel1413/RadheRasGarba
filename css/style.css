@@ -279,6 +279,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+    padding-top: 2px;
 }
 
 .header-carousel .owl-nav .owl-next {
@@ -296,6 +297,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+    padding-top: 2px;
 }
 
 .header-carousel .owl-nav .owl-prev,
@@ -312,9 +314,13 @@
 @media (max-width: 576px) {
     .header-carousel .owl-nav .owl-prev,
     .header-carousel .owl-nav .owl-next {
-        top: 630px;
+        top: 235px;
         transition: 0.5s;
+        height: 35px !important;
+        width: 35px !important;
+        padding-top: 2px;
     }
+
 
     .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
         width: 95% !important;
@@ -329,10 +335,56 @@
     height: 700px;
     margin-top: 95px;
     display: block;
-    object-fit: cover;
+    object-fit: cover ;
     transition: 0.5s;
 
 }
+
+
+@media (max-width:576px) {
+
+
+    .header-carousel .header-carousel-item,
+.header-carousel .header-carousel-item img {
+    position: relative;
+    width: 100%;
+    /* height:auto; */
+    height:260px;
+    margin-top: 95px;
+    display: block;
+    object-fit: cover ;
+    transition: 0.5s;
+
+}
+
+.display-1{
+    font-size: 1.5rem !important;
+}
+
+
+.join-btn, .read-btn{
+    display: none;
+}
+
+.fs-5{
+    font-size: 0.8rem !important;
+}
+
+.banner-title{
+    font-size: 1.2rem !important;
+}
+
+.banner-phone{
+    font-size: 1rem !important;
+}
+}
+
+@media (max-width:330px) {
+    .display-1{
+        font-size: 1.2rem !important;
+    }
+}
+
 
 @media (max-width: 992px) {
     .header-carousel .header-carousel-item,
@@ -340,6 +392,8 @@
         margin-top: 0;
         transition: 0.5s;
     }
+
+    
 
 }
 
